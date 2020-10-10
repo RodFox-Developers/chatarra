@@ -12,7 +12,7 @@
 /* HEADER */
 
 #header {
-    background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('/images/header.jpeg') no-repeat center center;
+    background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('./images/header.jpeg') no-repeat center center;
     height: 90vh;    
     -ms-background-size: cover;
     -webkit-background-size: cover;
