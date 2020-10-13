@@ -1,4 +1,10 @@
 $(document).ready(function() {
+    $('#loadData').load('inicio.html');
+
+    $('.inicio').click(function() {        
+        $('#loadData').load('inicio.html');
+    })
+
     $('.discografia').click(function() {        
         $('#loadData').load('discografia.html');
     })
