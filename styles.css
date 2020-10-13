@@ -8,17 +8,25 @@
     max-width: 150px;
 }
 
-nav a {
+nav .nav-link {
     text-transform: uppercase;
-    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav .nav-link:hover {    
+    border-bottom: 2px solid black;
+}
+
+nav .active .nav-link {    
+    border-bottom: 2px solid black;
 }
 
 
 /* HEADER */
 
 #header {
-    background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('./images/header.jpeg') no-repeat center center;
-    
+    background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('./images/header.jpeg') no-repeat center center;    
     height: 100vh;    
     -ms-background-size: cover;
     -webkit-background-size: cover;
@@ -38,3 +46,16 @@ nav a {
 .estrella {
     width: 4rem;
 }
+
+
+/* CARDS-CANCIONES */
+
+.audio-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/estrella.png') no-repeat center center;    
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+

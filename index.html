@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatarra Band</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <div class="container-fluid">   
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             
@@ -16,7 +19,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav mx-auto">
-                <li class="nav-item mx-3">
+                <li class="nav-item mx-3 active">
                   <a class="nav-link" href="#">Inicio</a>
                 </li>
                 <li class="nav-item mx-3">
@@ -28,7 +31,7 @@
               </ul>
             </div>
             <a class="navbar-brand mx-auto" href="#">
-                <img src="./images/logo-chatarra.png" alt="logo chatarra band" class="d-inline-block align-top logo-nav" loading="lazy">
+                <img src="./images/logo-chatarra.png" alt="logo chatarra band" class="d-inline-block align-top logo-nav">
             </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
@@ -45,82 +48,122 @@
               </div>
           </nav>
     </header>
-    <main>
-        <div class="container-fluid">          
-          <section id="header"></section>
-          <section id="bio">
-            <div class="text-center">
-              <img src="./images/chatarra-header.png" alt="chatarra band" class="img-fluid logo-bio">
-            </div>            
-            <div class="row">
-              <div class="col-lg-12 my-5 text-center">
-                <img src="./images/estrella.png" alt="estrella chatarra" class="img-fluid estrella">
-                <h3 class="d-inline mx-4">Biografía</h3>
-                <img src="./images/estrella.png" alt="estrella chatarra" class="img-fluid estrella">
-              </div>
-            </div>
-            <div class="row my-5 justify-content-around">
-              <div class="col-lg-4">
-                <img src="./images/chatarra01.jpg" alt="chatarra band" class="img-fluid">
-              </div>
-              <div class="col-lg-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus porro nostrum totam. Quasi vel, in architecto adipisci reiciendis ullam laborum eaque, labore at sit eligendi unde, perspiciatis modi aliquid nemo.</p>
-                <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.</p>
-                <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.</p>
-                <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.</p>
-                <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.</p>
-              </div>
-            </div>
-          </section>
-          <section id="gira">
-            <div class="row">
-              <div class="col-lg-12 my-5 text-center">
-                <img src="./images/estrella.png" alt="estrella chatarra" class="img-fluid estrella">
-                <h3 class="d-inline mx-4">Gira</h3>
-                <img src="./images/estrella.png" alt="estrella chatarra" class="img-fluid estrella">
-              </div>
-            </div>
-            <div class="row justify-content-center my-5">
-              <div class="col-8">
-                <table class="table table-striped">
-                  <thead>
-                    <tr>
-                      <th scope="col">Fecha</th>
-                      <th scope="col">Ciudad</th>
-                      <th scope="col">Lugar</th>
-                      <th scope="col">Tickets</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">01/02/2021</th>
-                      <td>Barcelona</td>
-                      <td>Estadio Olimpico</td>
-                      <td><a href="">Comprar</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">25/02/2021</th>
-                      <td>Madrid</td>
-                      <td>Estadio Nacional</td>
-                      <td><a href="">Comprar</a></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">09/03/2021</th>
-                      <td>Valencia</td>
-                      <td>Grarage</td>
-                      <td><a href="">Comprar</a></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>            
-          </section>
+
+    <main>               
+      <section id="header"></section>
+      <section id="bio">
+        <div class="row">
+          <div class="col-12 text-center">
+            <img src="./images/chatarra-header.png" alt="chatarra band" class="img-fluid logo-bio">
+          </div>          
+        </div>            
+        <div class="row">
+          <div class="col-lg-12 my-5 text-center">
+            <img src="./images/estrella.png" alt="estrella chatarra" class="img-fluid estrella">
+            <h3 class="d-inline mx-4">Biografía</h3>
+            <img src="./images/estrella.png" alt="estrella chatarra" class="img-fluid estrella">
+          </div>
         </div>
+        <div class="row my-5 justify-content-around">
+          <div class="col-lg-4">
+            <img src="./images/chatarra01.jpg" alt="chatarra band" class="img-fluid">
+          </div>
+          <div class="col-lg-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus porro nostrum totam. Quasi vel, in architecto adipisci reiciendis ullam laborum eaque, labore at sit eligendi unde, perspiciatis modi aliquid nemo.</p>
+            <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.</p>
+            <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.</p>
+            <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.</p>
+            <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vivamus suscipit tortor eget felis porttitor volutpat. Proin eget tortor risus. Nulla quis lorem ut libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit.</p>
+          </div>
+        </div>
+      </section>
+      <section id="gira" class="bg-light">
+        <div class="row">
+          <div class="col-lg-12 my-5 text-center">
+            <img src="./images/estrella.png" alt="estrella chatarra" class="img-fluid estrella">
+            <h3 class="d-inline mx-4">Gira</h3>
+            <img src="./images/estrella.png" alt="estrella chatarra" class="img-fluid estrella">
+          </div>
+        </div>
+        <div class="row justify-content-center py-5">
+          <div class="col-8">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">Fecha</th>
+                  <th scope="col">Ciudad</th>
+                  <th scope="col">Lugar</th>
+                  <th scope="col">Tickets</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">01/02/2021</th>
+                  <td>Barcelona</td>
+                  <td>Estadio Olimpico</td>
+                  <td><a href="">Comprar</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">25/02/2021</th>
+                  <td>Madrid</td>
+                  <td>Estadio Nacional</td>
+                  <td><a href="">Comprar</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">09/03/2021</th>
+                  <td>Valencia</td>
+                  <td>Grarage</td>
+                  <td><a href="">Comprar</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>            
+      </section>
+      <section id="media">
+        <div class="row justify-content-around my-5">
+          <div class="col-md-5 text-center my-3 rounded p-0 bg-dark text-light audio-card">
+            <h5 class="my-5">Titulo: Ni en el peor de tus sueños</h5>
+            <p>Album: Chatarra</p>
+            <p>Artista: Chatarra</p>
+            <figure class="my-5">                
+              <audio
+                  controls
+                  src="./media/Ni-en-el-Peor-de-tus-Suenos.aac">
+                      Your browser does not support the
+                      <code>audio</code> element.
+              </audio>
+            </figure>
+            <a href="#" class="btn btn-dark w-100">Ver Discografía</a>
+          </div>
+          <div class="col-md-5 text-center my-3 rounded p-0 bg-dark text-light audio-card">
+            <h5 class="my-5">Titulo: Triste cancion de amor</h5>
+            <p>Album: Chatarra</p>
+            <p>Artista: Chatarra</p>
+            <figure class="my-5">                
+              <audio
+                  controls
+                  src="./media/Triste-Cancion-de-Amor.aac">
+                      Your browser does not support the
+                      <code>audio</code> element.
+              </audio>
+            </figure>
+            <a href="#" class="btn btn-dark w-100">Ver Discografía</a>
+          </div>
+        </div> 
+        <div class="row my-5 justify-content-center">
+          <div class="col-lg-8">
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/_o4uZZbF5so" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>         
+      </section>
+        
     </main>
     <footer></footer>
-
+  </div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="./scripts.js"></script>
 </body>
 </html>
