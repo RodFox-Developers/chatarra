@@ -23,10 +23,10 @@ nav .active .nav-link {
 }
 
 
-/* HEADER */
+/* INICIO */
 
 #header {
-    background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('./images/header.jpeg') no-repeat center center;    
+    background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fheader.jpeg?alt=media&token=07f12680-48a5-4198-87a4-4d467b6f7e2e') no-repeat center center;    
     height: 100vh;    
     -ms-background-size: cover;
     -webkit-background-size: cover;
@@ -40,6 +40,55 @@ nav .active .nav-link {
     margin-top: -15rem;
 }
 
+.audio-card {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Festrella.png?alt=media&token=dedadac3-ccac-430d-b87e-7a314223255f') no-repeat center center;    
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+
+/* DISCOGRAFIA */
+
+.bg-paper02 {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Falice-donovan-rouse-yu68fUQDvOI-unsplash.jpg?alt=media&token=095e5b61-3a67-4d61-bb6d-6742e39e6dcd') no-repeat center center;  
+    height: 100%;
+    background-attachment: fixed;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
+
+.audio-list li {
+    list-style-type: decimal-leading-zero;    
+}
+
+.audio-list a {    
+    text-decoration: none;
+    color: black;
+}
+
+.audio-list .active {
+    background-color: lightgrey;    
+}
+
+
+/* VIDEOS */
+
+.bg-paper03 {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fmanolo-chretien-RpC-9e0ORNM-unsplash.jpg?alt=media&token=0a43f41c-98de-4a53-b7f1-79d76bc8ce40') no-repeat center center;  
+    height: 100%;
+    background-attachment: fixed;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+}
 
 /* BIOGRAFIA */
 
@@ -48,14 +97,15 @@ nav .active .nav-link {
 }
 
 
-/* CARDS-CANCIONES */
+/* GIRA / CONTACTO */
 
-.audio-card {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/estrella.png') no-repeat center center;    
+.bg-paper01 {
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fdan-cristian-padure-A3GeHVMmSdU-unsplash.jpg?alt=media&token=c7aca84e-a0d6-49d9-a566-b9b5a940ef0e') no-repeat center center;  
+    height: 90vh;
+    background-attachment: fixed;
     -ms-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
 }
-
