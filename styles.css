@@ -26,8 +26,8 @@ nav .active .nav-link {
 /* INICIO */
 
 #header {
-    background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fheader.jpeg?alt=media&token=07f12680-48a5-4198-87a4-4d467b6f7e2e') no-repeat center center;    
-    height: 100vh;    
+    background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fheader-chatarra-md.png?alt=media&token=b35a9518-351b-40ee-8849-901431fb5e3f') no-repeat center center;    
+    height: 150vh;    
     -ms-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -41,12 +41,17 @@ nav .active .nav-link {
 }
 
 .audio-card {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Festrella.png?alt=media&token=dedadac3-ccac-430d-b87e-7a314223255f') no-repeat center center;    
+    background: url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-chatarra-sm.png?alt=media&token=b8e0c787-dad0-40a4-a7e8-30511a2e9b30') no-repeat center center;    
     -ms-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
+    height: 31.25rem;
+}
+
+.audio-card .bg-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) no-repeat center center;      
 }
 
 
@@ -68,8 +73,11 @@ nav .active .nav-link {
 }
 
 .audio-list a {    
-    text-decoration: none;
-    color: black;
+    text-decoration: none;    
+}
+
+.audio-list li:hover {    
+    background-color: lightcyan;   
 }
 
 .audio-list .active {
