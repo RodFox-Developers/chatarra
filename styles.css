@@ -84,6 +84,10 @@ nav .active .nav-link {
     background-color: lightgrey;    
 }
 
+.img-cover {
+    max-width: 364px;    
+}
+
 
 /* VIDEOS */
 
@@ -109,8 +113,7 @@ nav .active .nav-link {
 
 .bg-paper01 {
     background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fdan-cristian-padure-A3GeHVMmSdU-unsplash.jpg?alt=media&token=c7aca84e-a0d6-49d9-a566-b9b5a940ef0e') no-repeat center center;  
-    height: 90vh;
-    background-attachment: fixed;
+    height: 90vh;    
     -ms-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
