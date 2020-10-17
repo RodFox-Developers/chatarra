@@ -27,26 +27,27 @@ nav .active .nav-link {
 
 #header {
     background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fheader-chatarra-md.png?alt=media&token=b35a9518-351b-40ee-8849-901431fb5e3f') no-repeat center center;    
-    height: 150vh;    
+    height: 100%;    
     -ms-background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;     
+    background-size: cover;   
+    margin-bottom: 10%;  
 }
 
 .logo-bio {
     width: 80%;
-    margin-top: -15rem;
+    margin-top: 70%;
 }
 
 .audio-card {
     background: url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-chatarra-sm.png?alt=media&token=b8e0c787-dad0-40a4-a7e8-30511a2e9b30') no-repeat center center;    
-    -ms-background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; 
+    -ms-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; 
     height: 31.25rem;
 }
 
@@ -88,6 +89,10 @@ nav .active .nav-link {
     max-width: 364px;    
 }
 
+.album {
+    font-size: 1.3rem;
+}
+
 
 /* VIDEOS */
 
@@ -105,7 +110,7 @@ nav .active .nav-link {
 /* BIOGRAFIA */
 
 .estrella {
-    width: 4rem;
+    width: 3rem;
 }
 
 
@@ -120,3 +125,66 @@ nav .active .nav-link {
     -o-background-size: cover;
     background-size: cover; 
 }
+
+
+/* MEDIA QUERY */
+
+
+@media only screen and (max-width: 992px) {
+    
+    #header {         
+        -ms-background-size: contain;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        background-position: top center;        
+        height: 100%; 
+        margin-bottom: 3%; 
+    }
+    .logo-bio {        
+        margin-top: 60%;
+    }
+
+    
+  }
+
+  @media only screen and (max-width: 576px) {
+    .bg-paper02 {
+        background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Falice-donovan-rouse-yu68fUQDvOI-unsplash.jpg?alt=media&token=095e5b61-3a67-4d61-bb6d-6742e39e6dcd') no-repeat center center;  
+        height: 100%;
+        
+        -ms-background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+    }
+    .bg-paper03 {
+        background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fmanolo-chretien-RpC-9e0ORNM-unsplash.jpg?alt=media&token=0a43f41c-98de-4a53-b7f1-79d76bc8ce40') no-repeat center center;  
+        height: 100%;
+        
+        -ms-background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+    }
+    /* dicografia */
+    .album {
+        font-size: 1rem;
+    }
+    .estrella {
+        width: 2rem;
+    }
+
+    /* gira */
+    .gira-table {
+        font-size: 0.5rem;
+    }
+
+    /* contacto */
+    .fa-size {
+        font-size: 0.5rem;
+    }
+  }
