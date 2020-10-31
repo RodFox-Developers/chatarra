@@ -41,6 +41,51 @@ nav .active .nav-link {
     margin-top: 70%;
 }
 
+#sala {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-speakers.jpg?alt=media&token=39d9eb6d-1734-4471-8db0-865f6d2928cb') no-repeat center center;        
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;   
+    background-attachment: fixed;
+}
+
+#bg-chus {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-chus.JPG?alt=media&token=a9bbb0ec-fea9-46c2-a49e-be365e26f2b3') no-repeat center center;  
+    height: 30rem;    
+    -ms-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; 
+    
+}
+
+#bg-rod {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-rod.JPG?alt=media&token=f853fe72-bcd2-4353-9ba6-40bc8e9c6169') no-repeat center center;  
+    height: 30rem;    
+    -ms-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; 
+}
+
+#bg-dario {
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-dario.JPG?alt=media&token=8f53fe39-e162-4c27-bdfd-255e3162fb63') no-repeat center center;  
+    height: 30rem;    
+    -ms-background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; 
+}
+
+.text-band {
+    font-family: 'Fredericka the Great', cursive;
+}
+
 .audio-card {
     background: url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-chatarra-sm.png?alt=media&token=b8e0c787-dad0-40a4-a7e8-30511a2e9b30') no-repeat center center;    
     -ms-background-size: contain;
@@ -55,6 +100,14 @@ nav .active .nav-link {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) no-repeat center center;      
 }
 
+#bg-partiture-line {
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-partiture-line.png?alt=media&token=ba530a2d-5f91-49be-be8d-f68bd7b21b9c') no-repeat center center;    
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;     
+}
 
 /* DISCOGRAFIA */
 
@@ -145,15 +198,21 @@ nav .active .nav-link {
     .logo-bio {        
         margin-top: 60%;
     }
-
+    #sala {        
+        -ms-background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;   
+        background-attachment: unset;
+    }
     
   }
 
   @media only screen and (max-width: 576px) {
     .bg-paper02 {
         background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Falice-donovan-rouse-yu68fUQDvOI-unsplash.jpg?alt=media&token=095e5b61-3a67-4d61-bb6d-6742e39e6dcd') no-repeat center center;  
-        height: 100%;
-        
+        height: 100%;        
         -ms-background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -162,14 +221,14 @@ nav .active .nav-link {
     }
     .bg-paper03 {
         background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fmanolo-chretien-RpC-9e0ORNM-unsplash.jpg?alt=media&token=0a43f41c-98de-4a53-b7f1-79d76bc8ce40') no-repeat center center;  
-        height: 100%;
-        
+        height: 100%;        
         -ms-background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover; 
     }
+
     /* dicografia */
     .album {
         font-size: 1rem;
