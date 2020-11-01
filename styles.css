@@ -2,6 +2,10 @@
     margin-top: 4rem;    
 }
 
+.estrella {
+    width: 3rem;
+}
+
 /* NAVBAR */
 
 .logo-nav {
@@ -86,33 +90,18 @@ nav .active .nav-link {
     font-family: 'Fredericka the Great', cursive;
 }
 
-.audio-card {
-    background: url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-chatarra-sm.png?alt=media&token=b8e0c787-dad0-40a4-a7e8-30511a2e9b30') no-repeat center center;    
-    -ms-background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain; 
-    height: 31.25rem;
+.social-logos img {
+    max-width: 150px;
 }
 
-.audio-card .bg-body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) no-repeat center center;      
-}
-
-#bg-partiture-line {
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-partiture-line.png?alt=media&token=ba530a2d-5f91-49be-be8d-f68bd7b21b9c') no-repeat center center;    
-    -ms-background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;     
+.social-logos a {
+    text-decoration: none;
 }
 
 /* DISCOGRAFIA */
 
 .bg-paper02 {
-    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Falice-donovan-rouse-yu68fUQDvOI-unsplash.jpg?alt=media&token=095e5b61-3a67-4d61-bb6d-6742e39e6dcd') no-repeat center center;  
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Falice-donovan-rouse-yu68fUQDvOI-unsplash.jpg?alt=media&token=095e5b61-3a67-4d61-bb6d-6742e39e6dcd') no-repeat center center;  
     height: 100%;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -122,28 +111,17 @@ nav .active .nav-link {
     background-size: cover; 
 }
 
-.audio-list li {
-    list-style-type: decimal-leading-zero;    
-}
-
-.audio-list a {    
-    text-decoration: none;    
-}
-
-.audio-list li:hover {    
-    background-color: lightcyan;   
-}
-
-.audio-list .active {
-    background-color: lightgrey;    
+#discografia .estrella {
+    width: 4rem;
 }
 
 .img-cover {
-    max-width: 364px;    
+    width: 100%;    
 }
 
 .album {
-    font-size: 1.3rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 
@@ -162,8 +140,12 @@ nav .active .nav-link {
 
 /* BIOGRAFIA */
 
-.estrella {
-    width: 3rem;
+#biografia .estrella {
+    width: 5rem;
+}
+
+.img-band {
+    opacity: 0.7;
 }
 
 
@@ -205,8 +187,7 @@ nav .active .nav-link {
         -o-background-size: cover;
         background-size: cover;   
         background-attachment: unset;
-    }
-    
+    }   
   }
 
   @media only screen and (max-width: 576px) {
