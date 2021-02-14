@@ -1,0 +1,54 @@
+{
+    "albumes": [
+        {
+            "title": "Es lo que hay (2000)",
+            "caratula": "https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fcovers-albums%2Fcover-es-lo-que-hay.jpg?alt=media&token=390a3a09-4991-4ffe-802b-0c36bdd60f48",
+            "spotify": "https://open.spotify.com/embed/album/4la9j9XSW5QZDwfghtL3X3"
+        },
+        {
+            "title": "Generación in vitro (2002) EP",
+            "caratula": "https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fcovers-albums%2Fcover-Generaci%C3%B3nInVitro.jpg?alt=media&token=4f9452bf-8ea2-4c2c-8018-c50330d85fc6",
+            "spotify": "https://open.spotify.com/embed/album/27WDBrDW3rg0wSwT484PZ3"
+        },
+        {
+            "title": "Rarezas (2003) EP",
+            "caratula": "https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fcovers-albums%2Fcover-rarezas.jpg?alt=media&token=39406bb5-47c8-4320-8a5f-af0cd4d1886f",
+            "spotify": "https://open.spotify.com/embed/album/5Jyce1Dm2Nlrv0ljgT1UEE"
+        },
+        {
+            "title": "Nuevo milenio (2004)",
+            "caratula": "https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fcovers-albums%2Fcover-NuevoMilenio.jpg?alt=media&token=35d9d711-2df3-4d5b-af8e-afa214357664",
+            "spotify": "https://open.spotify.com/embed/album/2KXzGwJeGEA7gC8EG94w5U"
+        },
+        {
+            "title": "Roda 2006 (2006) EP",
+            "caratula": "https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fcovers-albums%2Fcover-roda2006.jpg?alt=media&token=890edee6-b3b3-4f96-bf5c-7bc95541c4aa",
+            "spotify": "https://open.spotify.com/embed/album/1njwH8lw7GxjxtNKMaV88o"
+        },
+        {
+            "title": "Con un par de bemoles (2009)",
+            "caratula": "https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fcovers-albums%2Fcover-conUnParDeBemoles.jpg?alt=media&token=26407ad1-c65f-429e-b7f6-09f3c0eb1669",
+            "spotify": "https://open.spotify.com/embed/album/37h6i28wTMYvKiNa89nB4S"
+        },
+        {
+            "title": "Por la patilla... (2011) EP",
+            "caratula": "https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fcovers-albums%2Fcover-porLaPatilla.jpg?alt=media&token=7d1e0cdd-7f15-47ef-b7c2-f060ecfcafa9",
+            "spotify": "https://open.spotify.com/embed/album/4WLxfQJKVW34W1xmCjoBIg"
+        },
+        {
+            "title": "Directo en skull of rock (2012)",
+            "caratula": "https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fcovers-albums%2Fcover-DirectoenSkullofRock.jpg?alt=media&token=512b3ac0-c14c-48fd-936c-544a9620f35f",
+            "spotify": "https://open.spotify.com/embed/album/2svjVYxr7rksyIVes9hDMW"
+        },
+        {
+            "title": "Estrellaos del rocanrol (2012)",
+            "caratula": "https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fcovers-albums%2Fcover-Estrellaos-del-rocanrol.jpg?alt=media&token=b0d2173d-7b64-4702-bbe8-4e1fd7e902e3",
+            "spotify": "https://open.spotify.com/embed/album/1jeSHkPtPtn5MNjd9zHjMo"
+        },
+        {
+            "title": "En directo en estudio (2014)",
+            "caratula": "https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fcovers-albums%2Fcover-EN-DIRECTO-EN-ESTUDIO.jpg?alt=media&token=e426d7a0-3066-4b2f-afc9-efac6a319aef",
+            "spotify": "https://open.spotify.com/embed/album/37oWxTgZFeygdkMXzQsSAi"
+        }
+    ]
+}

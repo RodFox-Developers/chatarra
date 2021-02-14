@@ -10,11 +10,11 @@
           .reverse()
           .forEach(function (albumes) {
             $("#albumes").append(
-              '<div class="row justify-content-around my-5"><div class="col-12 text-center my-2"><img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"><p class="d-inline mx-4 album">Álbum: ' +
+              '<div class="row justify-content-around my-5"><div class="col-12 text-center my-2"><img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"><p class="d-inline mx-4 album">Álbum: ' + ' ' +
                 albumes.title +
                 '</p><img src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-estrella-sm.png?alt=media&token=f8d510db-2b79-496b-b7dd-77c6244f6d08" alt="estrella chatarra" class="img-fluid estrella"></div><div class="col-lg-4"><img class="img-fluid img-cover" src="' +
                 albumes.caratula +
-                '" alt="Chatarra - En directo en estudio"></div><div class="col-lg-6"><div class="row"><div class="col-12"><iframe src="' +
+                '" alt="Chatarra - ' + albumes.title + '"></div><div class="col-lg-6"><div class="row"><div class="col-12"><iframe src="' +
                 albumes.spotify +
                 '" width="100%" height="430px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div></div></div>'
             );
