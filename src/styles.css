@@ -29,7 +29,12 @@ nav .active .nav-link {
 
 /* INICIO */
 
-#header {
+.video-header {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+/* #header {
     background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fheader-chatarra-md.png?alt=media&token=b35a9518-351b-40ee-8849-901431fb5e3f') no-repeat center center;    
     height: 100%;    
     -ms-background-size: cover;
@@ -38,11 +43,10 @@ nav .active .nav-link {
     -o-background-size: cover;
     background-size: cover;   
     margin-bottom: 10%;  
-}
+} */
 
 .logo-bio {
-    width: 80%;
-    margin-top: 70%;
+    width: 30%;
 }
 
 #sala {
