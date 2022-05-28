@@ -53,6 +53,12 @@ $(document).ready(function () {
           $("#contacto").addClass("active");
         });        
         break;
+      case "#/rider":
+        $("#loadData").load("pages/rider.html", function () {
+          $(window).scrollTop(0);
+          $(".nav-item").removeClass("active");
+        });        
+        break;
       default:
         $("#loadData").load("404.html", function () {
           $(window).scrollTop(0);

@@ -166,6 +166,26 @@ nav .active .nav-link {
 }
 
 
+ 
+
+
+  /* Rider */
+
+  .bg-rider {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Frider%2Fchatarra%20-%20sesion%20-%20jpg-139.jpg?alt=media&token=c185fab6-c24b-4648-b1d6-59762130f4a3') no-repeat center center; 
+      height: 80vh;        
+      -ms-background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  .bg-rider h1 {
+    text-shadow: 5px 5px #929292;
+  }
+
+
 /* MEDIA QUERY */
 
 
@@ -181,9 +201,7 @@ nav .active .nav-link {
         height: 100%; 
         margin-bottom: 3%; 
     }
-    .logo-bio {        
-        margin-top: 60%;
-    }
+
     #sala {        
         -ms-background-size: cover;
         -webkit-background-size: cover;
@@ -214,12 +232,28 @@ nav .active .nav-link {
         background-size: cover; 
     }
 
-    /* dicografia */
-    .album {
+      /* Rider */
+
+  .bg-rider {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Frider%2Fchatarra%20-%20sesion%20-%20jpg-139.jpg?alt=media&token=c185fab6-c24b-4648-b1d6-59762130f4a3') no-repeat; 
+      height: 30vh;          
+      -ms-background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  .bg-rider h1 {
+    text-shadow: 5px 5px #929292;
+    font-size: 2rem;
+  }
+      /* dicografia */
+      .album {
         font-size: 1rem;
     }
     .estrella {
-        width: 2rem;
+        display: none;
     }
 
     /* gira */
@@ -231,4 +265,6 @@ nav .active .nav-link {
     .fa-size {
         font-size: 0.5rem;
     }
-  }
+
+}
+}
