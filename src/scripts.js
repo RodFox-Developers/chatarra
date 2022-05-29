@@ -4,11 +4,6 @@ $(document).ready(function () {
     $(".navbar-collapse").collapse("hide");
   });
 
-  $("#loadData").load("pages/inicio.html", function () {    
-    $(window).scrollTop(0);
-    window.location.hash = "#/";
-  });
-
   var router = function (route) {
     switch (route) {
       case "#/":
@@ -65,6 +60,7 @@ $(document).ready(function () {
         });
     }
   };
+  router(window.location.hash);
   $(window).on("hashchange", function (e) {
     router(window.location.hash);
   });  
