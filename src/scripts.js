@@ -2,9 +2,13 @@ $(document).ready(function () {
 
   $(".hide-toggle-navbar").on("click", function () {
     $(".navbar-collapse").collapse("hide");
-  });
+  });  
 
   var router = function (route) {
+    $("#loadData").load("pages/inicio.html", function () {    
+      $(window).scrollTop(0);
+      window.location.hash = "#/";
+    });
     switch (route) {
       case "#/":
         $("#loadData").load("pages/inicio.html", function () {
