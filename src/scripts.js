@@ -5,11 +5,15 @@ $(document).ready(function () {
   });  
 
   var router = function (route) {
-    $("#loadData").load("pages/inicio.html", function () {    
-      $(window).scrollTop(0);
-      window.location.hash = "#/";
-    });
     switch (route) {
+      case "":
+        $("#loadData").load("pages/inicio.html", function () {
+          $(window).scrollTop(0);
+          $(".nav-item").removeClass("active");
+          $("#inicio").addClass("active");
+          window.location.hash = "#/";
+        });        
+        break;
       case "#/":
         $("#loadData").load("pages/inicio.html", function () {
           $(window).scrollTop(0);
