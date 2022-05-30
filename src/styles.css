@@ -61,7 +61,7 @@ nav .active .nav-link {
 }
 
 #bg-chus {
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-chus.JPG?alt=media&token=a9bbb0ec-fea9-46c2-a49e-be365e26f2b3') no-repeat center center;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FHome%2FChus.jpeg?alt=media&token=12f83160-766a-43c9-be9c-c3be0e2151a7') no-repeat center center;
     height: 30rem;
     -ms-background-size: contain;
     -webkit-background-size: contain;
@@ -72,7 +72,7 @@ nav .active .nav-link {
 }
 
 #bg-rod {
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-rod.JPG?alt=media&token=f853fe72-bcd2-4353-9ba6-40bc8e9c6169') no-repeat center center;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FHome%2FRod.jpeg?alt=media&token=92b2879d-b248-4bfc-9236-5bb99ad1afc3') no-repeat center center;
     height: 30rem;
     -ms-background-size: contain;
     -webkit-background-size: contain;
@@ -82,7 +82,7 @@ nav .active .nav-link {
 }
 
 #bg-dario {
-    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg-dario.jpg?alt=media&token=7ec2be9c-8156-493d-ae39-2289d6583376') no-repeat center center;
+    background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2FHome%2FDario.jpeg?alt=media&token=e118625a-c1e1-4a81-abe2-1151ae506db1') no-repeat center center;
     height: 30rem;
     -ms-background-size: contain;
     -webkit-background-size: contain;
