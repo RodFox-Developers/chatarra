@@ -42,13 +42,6 @@ $(document).ready(function () {
           $("#biografia").addClass("active");
         });        
         break;
-      case "#/gira":
-        $("#loadData").load("pages/gira.html", function () {
-          $(window).scrollTop(0);
-          $(".nav-item").removeClass("active");
-          $("#gira").addClass("active");
-        });        
-        break;
       case "#/contacto":
         $("#loadData").load("pages/contacto.html", function () {
           $(window).scrollTop(0);
@@ -62,6 +55,12 @@ $(document).ready(function () {
           $(".nav-item").removeClass("active");
         });        
         break;
+      case "#/cache":
+        $("#loadData").load("pages/cache.html", function () {
+          $(window).scrollTop(0);
+          $(".nav-item").removeClass("active");          
+        });        
+        break;  
       default:
         $("#loadData").load("404.html", function () {
           $(window).scrollTop(0);
