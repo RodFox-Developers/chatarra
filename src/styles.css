@@ -29,11 +29,11 @@ nav .active .nav-link {
 
 /* INICIO */
 
-.video-header {
+/* .video-header {
     margin: 0;
     padding: 0;
     background-color: #1A191A;
-}
+} */
 
 /* #header {
     background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 212855, 0), rgba(128, 128, 128, 0), rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fheader-chatarra-md.png?alt=media&token=b35a9518-351b-40ee-8849-901431fb5e3f') no-repeat center center;    
@@ -45,6 +45,31 @@ nav .active .nav-link {
     background-size: cover;   
     margin-bottom: 10%;  
 } */
+
+#header {
+    background: linear-gradient(rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0), rgba(128, 128, 128, 0.5), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1)), url('https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fbg_rock_duro.jpg?alt=media&token=a03e28bc-2a73-4bb2-8afb-3983e58089f3') no-repeat center bottom;    
+    height: 100%;    
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;            
+}
+
+.bg-blur {
+    backdrop-filter: blur(10px); 
+}
+
+#header img, #header a {
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    #header a {
+        font-size: 1.5rem;
+    }
+}
 
 .logo-bio {
     width: 30%;
