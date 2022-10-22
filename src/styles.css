@@ -65,12 +65,6 @@ nav .active .nav-link {
     border-radius: 10px;
 }
 
-@media screen and (min-width: 992px) {
-    #header a {
-        font-size: 1.5rem;
-    }
-}
-
 .logo-bio {
     width: 30%;
 }
@@ -178,7 +172,6 @@ nav .active .nav-link {
     opacity: 0.7;
 }
 
-
 /* CONTACTO */
 
 .bg-paper01 {
@@ -190,10 +183,6 @@ nav .active .nav-link {
     -o-background-size: cover;
     background-size: cover;
 }
-
-
-
-
 
 /* Rider */
 
@@ -211,9 +200,13 @@ nav .active .nav-link {
     text-shadow: 5px 5px #929292;
 }
 
-
 /* MEDIA QUERY */
 
+@media screen and (min-width: 992px) {
+    #header a {
+        font-size: 1.5rem;
+    }
+}
 
 @media only screen and (max-width: 992px) {
 
