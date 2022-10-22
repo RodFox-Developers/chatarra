@@ -200,6 +200,22 @@ nav .active .nav-link {
     text-shadow: 5px 5px #929292;
 }
 
+/* MODAL */
+
+#eventModal .modal-content {
+    background-color: #0F1013;
+}
+
+/* Shop */
+
+.bg-shop .card {
+    max-width: 300px;
+}
+
+.bg-shop img {
+    max-height: 350px;
+}
+
 /* MEDIA QUERY */
 
 @media screen and (min-width: 992px) {
