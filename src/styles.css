@@ -217,7 +217,7 @@ nav .active .nav-link {
 
 @media only screen and (max-width: 992px) {
 
-    #header {
+/*     #header {
         -ms-background-size: contain;
         -webkit-background-size: contain;
         -moz-background-size: contain;
@@ -226,7 +226,7 @@ nav .active .nav-link {
         background-position: top center;
         height: 100%;
         margin-bottom: 3%;
-    }
+    } */
 
     #sala {
         -ms-background-size: cover;
