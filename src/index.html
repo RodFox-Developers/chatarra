@@ -162,6 +162,10 @@
     $(window).on("load", function () {
       $("#eventModal").modal("show");
     });
+
+    $("#eventModal").on('hidden.bs.modal', function (e) {
+        $("#eventModal iframe").attr("src", $("#eventModal iframe").attr("src"));
+    });
   </script>
 </body>
 
