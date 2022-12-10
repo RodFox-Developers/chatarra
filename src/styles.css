@@ -202,38 +202,17 @@ nav .active .nav-link {
 
 /* MODAL */
 
-.bit-event-lists, .bit-nav-bar-container {
-    display: none !important;
-}
 
-.bit-widget {    
-    padding-bottom: 0px !important;
-}
-
-.bit-widget .bit-follow-section-wrapper {
-    padding: 0px !important;
-    font-size: 12px;
-}
-
-.bit-widget .bit-follow-section-cta {
-    margin: 0px !important;
-    padding: 10px !important;
-}
-
-#powered, #powered svg {
-    height: 20px;
-    vertical-align: middle;
-}
 
 /* Shop */
 
-.bg-shop .card {
+/* .bg-shop .card {
     max-width: 300px;
 }
 
 .bg-shop img {
     max-height: 350px;
-}
+} */
 
 /* MEDIA QUERY */
 
