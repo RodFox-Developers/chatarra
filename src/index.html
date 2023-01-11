@@ -1,132 +1,240 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Chatarra banda de rock de Barcelona, España. Spanish Hard Rock Band, Rock Music Spain, Música Rock"
+    />
+    <title>Chatarra Rock</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Ffavicon.png?alt=media&token=d7dd7d54-c230-429b-8180-103d122db3cd"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-    content="Chatarra banda de rock de Barcelona, España. Spanish Hard Rock Band, Rock Music Spain, Música Rock" />
-  <title>Chatarra Rock</title>
-  <link rel="icon" type="image/png"
-    href="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Ffavicon.png?alt=media&token=d7dd7d54-c230-429b-8180-103d122db3cd" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <link rel="stylesheet" href="./styles.css" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-10841761494"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10841761494"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag("config", "AW-10841761494");
+    </script>
+    <!-- Event snippet for Page view conversion page -->
+    <script>
+      gtag("event", "conversion", {
+        send_to: "AW-10841761494/QpZXCL7-5oQYENbN4LEo",
+      });
+    </script>
+  </head>
 
-  gtag('config', 'AW-10841761494');
-</script>
-<!-- Event snippet for Page view conversion page -->
-<script>
-  gtag('event', 'conversion', {'send_to': 'AW-10841761494/QpZXCL7-5oQYENbN4LEo'});
-</script>
-
-</head>
-
-<body>
-  <!-- Load Facebook SDK for JavaScript -->
-  <div id="fb-root"></div>
+  <body>
+    <!-- Load Facebook SDK for JavaScript -->
+    <!--   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous"
     src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v15.0&appId=570491086871921&autoLogAppEvents=1"
-    nonce="k8yc6riB"></script>
+    nonce="k8yc6riB"></script> -->
 
-  <div class="container-fluid">
-    <header id="navbar">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li id="inicio" class="nav-item mx-3 active">
-              <a href="#/" class="nav-link inicio hide-toggle-navbar">Inicio</a>
-            </li>
-            <li id="discografia" class="nav-item mx-3">
-              <a href="#/discografia" class="nav-link discografia hide-toggle-navbar">Discografía</a>
-            </li>
-            <li id="videos" class="nav-item mx-3">
-              <a href="#/videos" class="nav-link videos hide-toggle-navbar">Videos</a>
-            </li>
-          </ul>
-        </div>
-        <div class="navbar-brand mx-auto">
-          <img
-            src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-chatarra.png?alt=media&token=0eb35722-dc14-42d1-ac4a-fb47bdcd1fab"
-            alt="logo chatarra rock" class="d-inline-block align-top logo-nav" />
-        </div>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li id="biografia" class="nav-item mx-3">
-              <a href="#/biografia" class="nav-link bio hide-toggle-navbar">Biografía</a>
-            </li>
-            <li id="gira" class="nav-item mx-3">
-              <a href="https://music.chatarrarock.com/events" class="nav-link gira hide-toggle-navbar"
-                target="_blank">Eventos</a>
-            </li>
-            <li id="contacto" class="nav-item mx-3">
-              <a href="#/contacto" class="nav-link contacto hide-toggle-navbar">Contacto</a>
-            </li>
-          </ul>
-        </div>
-        <a href="https://music.chatarrarock.com/socialmedia" target="_blank" class="btn btn-lg m-0 p-0"><i
-            class="far fa-music fa-lg m-0 p-0 text-success"></i>
-          <p class="text-muted m-0 p-0 text-success"><small>Play</small></p>
-        </a>
-      </nav>
-    </header>
-
-    <main id="loadData"></main>
-
-    <footer id="footer">
-      <div class="row bg-light text-center text-primary py-5">
-        <div class="col-lg-6">
-          <h3 class="align-middle">Síguenos en nuestras Redes Sociales!</h3>
-        </div>
-        <div class="col-lg-6 my-md-0">
-          <a href="https://www.youtube.com/channel/UCSrQ7KZ_VdEGsE53ALl-Z-g" target="_blank"
-            class="btn btn-outline-danger btn-lg m-3" data-toggle="tooltip" data-placement="top" title="Youtube"><i
-              class="fab fa-youtube-square fa-1x"></i></a>
-          <a href="https://open.spotify.com/artist/7AtmpUfNKk9jraaAoOv9Da" target="_blank"
-            class="btn btn-outline-success btn-lg m-3" data-toggle="tooltip" data-placement="top" title="Spotify"><i
-              class="fab fa-spotify fa-1x"></i></a>
-          <a href="https://soundcloud.com/chatarra-rock" target="_blank" class="btn btn-outline-danger btn-lg m-3"
-            data-toggle="tooltip" data-placement="top" title="Soundcloud"><i class="fab fa-soundcloud fa-1x"></i></a>
-          <a href="https://chatarra.bandcamp.com/" target="_blank" class="btn btn-outline-dark btn-lg m-3"
-            data-toggle="tooltip" data-placement="top" title="Bandcamp"><i class="fab fa-bandcamp fa-1x"></i></a>
-          <a href="https://www.jamendo.com/artist/342136/chatarra" target="_blank" class="btn btn-outline-dark m-3"
-            data-toggle="tooltip" data-placement="top" title="Jamendo">
+    <div class="container-fluid">
+      <header id="navbar">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom"
+        >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li id="inicio" class="nav-item mx-3 active">
+                <a href="#/" class="nav-link inicio hide-toggle-navbar"
+                  >Inicio</a
+                >
+              </li>
+              <li id="discografia" class="nav-item mx-3">
+                <a
+                  href="#/discografia"
+                  class="nav-link discografia hide-toggle-navbar"
+                  >Discografía</a
+                >
+              </li>
+              <li id="videos" class="nav-item mx-3">
+                <a href="#/videos" class="nav-link videos hide-toggle-navbar"
+                  >Videos</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-brand mx-auto">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fjamendo-logo-btn.png?alt=media&token=856c26db-4ce5-479f-a09a-d51d9eda1a02"
-              class="img-fluid my-1" alt="jamendo logo" style="max-width: 30px" />
+              src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fimg-logo-chatarra.png?alt=media&token=0eb35722-dc14-42d1-ac4a-fb47bdcd1fab"
+              alt="logo chatarra rock"
+              class="d-inline-block align-top logo-nav"
+            />
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li id="biografia" class="nav-item mx-3">
+                <a href="#/biografia" class="nav-link bio hide-toggle-navbar"
+                  >Biografía</a
+                >
+              </li>
+              <li id="gira" class="nav-item mx-3">
+                <a
+                  href="https://music.chatarrarock.com/events"
+                  class="nav-link gira hide-toggle-navbar"
+                  target="_blank"
+                  >Eventos</a
+                >
+              </li>
+              <li id="contacto" class="nav-item mx-3">
+                <a
+                  href="#/contacto"
+                  class="nav-link contacto hide-toggle-navbar"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+          <a
+            href="https://music.chatarrarock.com/socialmedia"
+            target="_blank"
+            class="btn btn-lg m-0 p-0"
+            ><i class="far fa-music fa-lg m-0 p-0 text-success"></i>
+            <p class="text-muted m-0 p-0 text-success"><small>Play</small></p>
           </a>
-          <a href="https://www.facebook.com/Chatarra-241987021881/" target="_blank"
-            class="btn btn-outline-primary btn-lg m-3" data-toggle="tooltip" data-placement="top" title="Facebook"><i
-              class="fab fa-facebook fa-1x"></i></a>
-          <a href="https://www.instagram.com/Chatarrarock/" target="_blank" class="btn btn-outline-danger btn-lg m-3"
-            data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fab fa-instagram fa-1x"></i></a>
-          <a href="https://twitter.com/ChatarraRock" target="_blank" class="btn btn-outline-info btn-lg m-3"
-            data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fab fa-twitter fa-1x"></i></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 text-center py-3">
-          <small>Copyright © 2020, Chatarra. All rights reserved.</small>
-        </div>
-      </div>
-    </footer>
-  </div>
+        </nav>
+      </header>
 
-  <div class="modal hide fade" id="eventModal" tabindex="-1" role="dialog" aria-labelledby="eventModalLabel"
+      <main id="loadData"></main>
+
+      <footer id="footer">
+        <div class="row bg-light text-center text-primary py-5">
+          <div class="col-lg-6">
+            <h3 class="align-middle">Síguenos en nuestras Redes Sociales!</h3>
+          </div>
+          <div class="col-lg-6 my-md-0">
+            <a
+              href="https://www.youtube.com/channel/UCSrQ7KZ_VdEGsE53ALl-Z-g"
+              target="_blank"
+              class="btn btn-outline-danger btn-lg m-3"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Youtube"
+              ><i class="fab fa-youtube-square fa-1x"></i
+            ></a>
+            <a
+              href="https://open.spotify.com/artist/7AtmpUfNKk9jraaAoOv9Da"
+              target="_blank"
+              class="btn btn-outline-success btn-lg m-3"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Spotify"
+              ><i class="fab fa-spotify fa-1x"></i
+            ></a>
+            <a
+              href="https://soundcloud.com/chatarra-rock"
+              target="_blank"
+              class="btn btn-outline-danger btn-lg m-3"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Soundcloud"
+              ><i class="fab fa-soundcloud fa-1x"></i
+            ></a>
+            <a
+              href="https://chatarra.bandcamp.com/"
+              target="_blank"
+              class="btn btn-outline-dark btn-lg m-3"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Bandcamp"
+              ><i class="fab fa-bandcamp fa-1x"></i
+            ></a>
+            <a
+              href="https://www.jamendo.com/artist/342136/chatarra"
+              target="_blank"
+              class="btn btn-outline-dark m-3"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Jamendo"
+            >
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/chatarra-c89b9.appspot.com/o/images%2Fjamendo-logo-btn.png?alt=media&token=856c26db-4ce5-479f-a09a-d51d9eda1a02"
+                class="img-fluid my-1"
+                alt="jamendo logo"
+                style="max-width: 30px"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/Chatarra-241987021881/"
+              target="_blank"
+              class="btn btn-outline-primary btn-lg m-3"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Facebook"
+              ><i class="fab fa-facebook fa-1x"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/Chatarrarock/"
+              target="_blank"
+              class="btn btn-outline-danger btn-lg m-3"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Instagram"
+              ><i class="fab fa-instagram fa-1x"></i
+            ></a>
+            <a
+              href="https://twitter.com/ChatarraRock"
+              target="_blank"
+              class="btn btn-outline-info btn-lg m-3"
+              data-toggle="tooltip"
+              data-placement="top"
+              title="Twitter"
+              ><i class="fab fa-twitter fa-1x"></i
+            ></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center py-3">
+            <small>Copyright © 2020, Chatarra. All rights reserved.</small>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!--   <div class="modal hide fade" id="eventModal" tabindex="-1" role="dialog" aria-labelledby="eventModalLabel"
     aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content px-2 text-center">
@@ -134,60 +242,30 @@
           <span aria-hidden="true">&times;</span>
         </button>
 
-        <!-- Eventos -->
 
-        <p class="lead my-5">Síguenos en</p>
-
-        <a href="https://www.facebook.com/ChatarraRockDuro/events" target="_blank" style="text-decoration: none;"
-          class="h4">
-          <i class="fab fa-facebook fa-lg mr-2"></i><strong>Facebook</strong>
-        </a>
-
-        <a href="https://www.bandsintown.com/a/580527-chatarra" target="_blank" class="my-3">
-          <svg width="156px" height="23px" viewBox="0 0 156 23" version="1.1" xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink" style="cursor: pointer;">
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-              <g id="Group" fill="rgba(0,180,179,1)">
-                <path
-                  d="M36.266,13.3325 C36.266,11.3126 34.962,9.88928 32.9588,9.88928 C30.9558,9.88928 29.6513,11.3126 29.6513,13.3325 C29.6513,15.3523 30.9558,16.7755 32.9588,16.7755 C34.962,16.7755 36.266,15.3523 36.266,13.3325 Z M29.6738,17.1298 L29.6271,17.1298 L29.6271,18.7203 L27.3359,18.7203 L27.3359,2.34717 L29.6271,2.34717 L29.6271,9.5044 L29.6738,9.5044 C30.352,8.33499 31.5443,7.5632 33.321,7.5632 C36.173,7.5632 38.582,9.7149 38.582,13.3171 C38.582,16.9193 36.173,19.0711 33.321,19.0711 C31.5443,19.0711 30.352,18.2991 29.6738,17.1298 Z M49.497,13.3325 C49.497,11.3126 48.192,9.88928 46.189,9.88928 C44.186,9.88928 42.882,11.3126 42.882,13.3325 C42.882,15.3523 44.186,16.7755 46.189,16.7755 C48.192,16.7755 49.497,15.3523 49.497,13.3325 Z M40.236,13.3324 C40.236,9.73982 42.644,7.59387 45.496,7.59387 C47.273,7.59387 48.466,8.3636 49.144,9.52988 L49.191,9.52988 L49.191,7.94364 L51.482,7.94364 L51.482,18.7211 L49.191,18.7211 L49.191,17.1349 L49.144,17.1349 C48.466,18.3011 47.273,19.0709 45.496,19.0709 C42.644,19.0709 40.236,16.9249 40.236,13.3324 Z M64.38,12.1049 L64.38,18.743 L62.092,18.743 L62.092,12.5023 C62.092,10.656 61.158,9.88437 59.617,9.88437 C57.936,9.88437 56.745,10.8894 56.745,13.5775 L56.745,18.743 L54.457,18.743 L54.457,7.94433 L56.745,7.94433 L56.745,9.58057 L56.792,9.58057 C57.492,8.3419 58.66,7.59387 60.317,7.59387 C62.628,7.59387 64.38,8.83254 64.38,12.1049 Z M75.957,13.3325 C75.957,11.3126 74.652,9.88928 72.649,9.88928 C70.646,9.88928 69.342,11.3126 69.342,13.3325 C69.342,15.3523 70.646,16.7755 72.649,16.7755 C74.652,16.7755 75.957,15.3523 75.957,13.3325 Z M66.696,13.3171 C66.696,9.7149 69.104,7.5632 71.957,7.5632 C73.734,7.5632 74.926,8.33499 75.604,9.5044 L75.651,9.5044 L75.651,2.34717 L77.942,2.34717 L77.942,18.7203 L75.651,18.7203 L75.651,17.1298 L75.604,17.1298 C74.926,18.2991 73.734,19.0711 71.957,19.0711 C69.104,19.0711 66.696,16.9193 66.696,13.3171 Z M79.926,17.9278 L80.955,15.8986 C81.959,16.4815 83.105,16.9249 84.39,16.9249 C85.488,16.9249 86.072,16.5983 86.072,15.9218 C86.072,15.4785 85.839,15.1521 84.927,14.7087 L82.964,13.7521 C81.329,12.9823 80.698,11.8861 80.698,10.65 C80.698,8.66672 82.17,7.59387 84.53,7.59387 C85.769,7.59387 87.124,7.9204 88.269,8.43378 L87.334,10.4165 C86.516,10.0665 85.511,9.71664 84.46,9.71664 C83.455,9.71664 83.128,10.0433 83.128,10.5331 C83.128,11.0462 83.432,11.3729 84.367,11.8162 L86.376,12.7725 C87.778,13.4257 88.526,14.3587 88.526,15.8051 C88.526,17.9979 86.844,19.0709 84.32,19.0709 C82.777,19.0709 81.165,18.6511 79.926,17.9278 Z M90.842,18.7431 L93.157,18.7431 L93.157,7.92175 L90.842,7.92175 L90.842,18.7431 Z M106.054,12.1049 L106.054,18.743 L103.766,18.743 L103.766,12.5023 C103.766,10.656 102.832,9.88437 101.291,9.88437 C99.61,9.88437 98.419,10.8894 98.419,13.5775 L98.419,18.743 L96.131,18.743 L96.131,7.94433 L98.419,7.94433 L98.419,9.58057 L98.466,9.58057 C99.166,8.3419 100.334,7.59387 101.992,7.59387 C104.303,7.59387 106.054,8.83254 106.054,12.1049 Z M111.839,9.89728 L111.839,15.5306 C111.839,16.2987 112.16,16.648 112.94,16.648 L113.49,16.648 L113.49,18.743 L112.458,18.743 C110.601,18.743 109.591,17.7421 109.591,15.9729 L109.591,9.89728 L107.711,9.89728 L107.711,7.96516 L109.591,7.96516 L109.591,3.65881 L111.839,3.65881 L111.839,7.96516 L113.995,7.96516 L113.995,9.89728 L111.839,9.89728 Z M117.631,13.3325 C117.631,15.4211 119.053,16.7755 121.104,16.7755 C123.156,16.7755 124.577,15.4211 124.577,13.3325 C124.577,11.2437 123.156,9.88928 121.104,9.88928 C119.053,9.88928 117.631,11.2437 117.631,13.3325 Z M126.893,13.3324 C126.893,16.645 124.351,19.0709 120.939,19.0709 C117.527,19.0709 114.986,16.645 114.986,13.3324 C114.986,10.0199 117.527,7.59387 120.939,7.59387 C124.351,7.59387 126.893,10.0199 126.893,13.3324 Z M144.092,7.92175 L140.486,18.7431 L138.393,18.7431 L135.834,10.9904 L133.253,18.7431 L131.159,18.7431 L127.554,7.92175 L130.066,7.92175 L132.229,15.7215 L134.718,7.92175 L136.927,7.92175 L139.416,15.7215 L141.58,7.92175 L144.092,7.92175 Z M155.998,12.1049 L155.998,18.743 L153.71,18.743 L153.71,12.5023 C153.71,10.656 152.776,9.88437 151.235,9.88437 C149.554,9.88437 148.363,10.8894 148.363,13.5775 L148.363,18.743 L146.075,18.743 L146.075,7.94433 L148.363,7.94433 L148.363,9.58057 L148.41,9.58057 C149.111,8.3419 150.278,7.59387 151.936,7.59387 C154.247,7.59387 155.998,8.83254 155.998,12.1049 Z M93.816,3.98671 C93.816,3.08116 93.076,2.34717 92.163,2.34717 C91.249,2.34717 90.509,3.08116 90.509,3.98671 C90.509,4.89227 91.249,5.62641 92.163,5.62641 C93.076,5.62641 93.816,4.89227 93.816,3.98671 Z"
-                  id="Shape"></path>
-                <polygon id="Path" points="17.2344 11.7359 21.6916 11.7359 21.6916 0 17.2344 0"></polygon>
-                <polygon id="Path" points="11.291 11.7357 15.7482 11.7357 15.7482 6.16113 11.291 6.16113"></polygon>
-                <polygon id="Path" points="5.6445 11.7357 10.1017 11.7357 10.1017 6.16113 5.6445 6.16113"></polygon>
-                <polygon id="Path"
-                  points="0 0 0 22.8822 16.885 22.8822 17.2032 22.8851 21.6915 22.8851 21.6915 13.2792 5.7602 13.2792 5.7602 17.4791 17.2032 17.4791 17.2032 18.6813 4.4891 18.6813 4.4891 0">
-                </polygon>
-              </g>
-            </g>
-          </svg>
-        </a>
-
-        <a href="https://www.songkick.com/artists/10193521-chatarra" target="_blank" class="my-2">
-          <svg width="80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 111" enable-background="new 0 0 430 111">
-            <title>Songkick</title>
-            <desc>Tour Dates by Songkick</desc>
-            <path
-              d="M276.4 67.6c-4.4 0-7.3-1.3-10.3-6-2.9-4.7-7.9-12.6-7.9-12.6l21.5-30H261l-17.1 23.8V-.1h-15.6v82.4h15.6V56.2s8.7 13.7 11.4 18c4.3 6.5 10 8.3 19.4 8.3h4.6V67.6h-2.9zM416 67.6c-4.4 0-7.3-1.3-10.3-6-3-4.7-7.9-12.6-7.9-12.6l21.5-30h-18.7l-17.1 23.8V-.1h-15.6v82.4h15.6V56.2s8.7 13.7 11.4 18c4.3 6.5 10 8.3 19.4 8.3h4.6V67.6H416zM33.3 83c-9.7 0-17.6-1.8-24.1-8.4l10-10c3.3 3.3 9.1 4.5 14.2 4.5 6.2 0 9.1-2 9.1-5.7 0-1.5-.4-2.8-1.2-3.8-.8-.8-2.1-1.4-4.2-1.7l-7.7-1.1c-5.6-.8-9.9-2.7-12.7-5.6-2.9-3-4.4-7.3-4.4-12.7 0-11.6 8.7-20.1 23.2-20.1 9.1 0 16 2.1 21.4 7.6l-9.8 9.8c-4-4-9.3-3.7-12-3.7-5.4 0-7.7 3.1-7.7 5.9 0 .8.3 2 1.2 2.9.8.8 2.1 1.6 4.4 1.9l7.7 1.1c5.7.8 9.8 2.6 12.5 5.3 3.4 3.3 4.7 8 4.7 13.9C57.8 75.9 46.7 83 33.3 83zM105.4 75.9c-4.6 4.6-10 7.1-17.7 7.1-7.8 0-13.1-2.5-17.7-7.1-6.7-6.7-6.4-15.6-6.4-25.2 0-9.5-.3-18.5 6.4-25.1 4.6-4.6 10-7.1 17.7-7.1 7.8 0 13.1 2.5 17.7 7.1 6.7 6.7 6.4 15.6 6.4 25.1 0 9.5.2 18.5-6.4 25.2zM93.9 35.1c-1.2-1.5-3.4-2.8-6.2-2.8-2.9 0-5.1 1.2-6.2 2.8-1.4 1.9-2.3 4-2.3 15.6s.9 13.7 2.3 15.5c1.2 1.5 3.4 2.9 6.2 2.9 2.9 0 5.1-1.3 6.2-2.9 1.4-1.9 2.3-3.9 2.3-15.5s-.9-13.7-2.3-15.6zM338.3 83.1c-7.4 0-13-2.5-17.6-7.1-6.7-6.7-6.4-15.6-6.4-25.2 0-9.5-.3-18.5 6.4-25.1 4.6-4.6 10.2-7.1 17.6-7.1 12 0 21.7 6.7 24.1 20.7h-15.9c-1-3.6-2.9-6.8-8.1-6.8-2.9 0-5 1.2-6.1 2.7-1.4 1.9-2.4 4.1-2.4 15.7s1 13.8 2.4 15.7c1.2 1.5 3.3 2.7 6.1 2.7 5.2 0 7.1-3.2 8.1-6.8h15.9c-2.3 13.9-12.1 20.6-24.1 20.6zM205 87.1c0 8.4-5.8 9.8-9.5 9.8h-5.7v13.9h6.9c15.5-.1 24-8.2 24-23.8l-.1-46.9c0-7.3-3.4-13.1-8.3-16.9-4.4-3.3-10-5-15.6-5-7.4 0-13 2.5-17.6 7.1-6.7 6.7-6.4 15.6-6.4 25.1 0 9.5-.3 18.5 6.4 25.2 4.6 4.6 10.2 7.1 17.6 7.1 2.9 0 5.5-.6 8.3-1.9v6.3zm-8.2-18c-2.9 0-5-1.2-6.1-2.7-1.4-1.9-2.4-4.1-2.4-15.7s1-13.8 2.4-15.7c1.2-1.5 3.3-2.7 6.1-2.7 5.1 0 7.1 3.1 8.1 6.6v23.6c-1 3.5-3 6.6-8.1 6.6zM166.4 46.5c0-6.5.3-14.3-6.4-20.9-4.6-4.6-10-7.1-17.7-7.1-7.8 0-13.1 2.5-17.7 7.1-6.7 6.7-6.4 14.9-6.4 20.9v36h15.6v-36c0-8.1.9-9.3 2.3-11.2 1.2-1.5 3.4-3 6.2-3 2.9 0 5.1 1.5 6.2 3 1.4 1.9 2.3 2.9 2.3 11.2v35.9h15.6V46.5zM299.4 12.6V0h-15.5v12.6zM283.5 19.1h15.9v38.8c0 6.9 4.4 9.8 9.6 9.8h3.6v14.8h-5.1c-15.8-.1-24-8.8-24-24V19.1z">
-            </path>
-          </svg>
-        </a>
-        <p class="lead my-5">y nunca te pierdas un evento en vivo.</p>
 
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-  <script src="./scripts.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./scripts.js"></script>
 
-  <script type="text/javascript">
+    <!--   <script type="text/javascript">
     $(window).on("load", function () {
       $("#eventModal").modal("show");
     });
@@ -198,7 +276,6 @@
         $("#eventModal iframe").attr("src")
       );
     });
-  </script>
-</body>
-
+  </script> -->
+  </body>
 </html>
