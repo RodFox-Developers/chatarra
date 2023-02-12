@@ -61,12 +61,6 @@ $(document).ready(function () {
           $(".nav-item").removeClass("active");          
         });        
         break;  
-/*       case "#/shop":
-        $("#loadData").load("pages/shop.html", function () {
-          $(window).scrollTop(0);
-          $(".nav-item").removeClass("active");          
-        });        
-        break;  */
       default:
         $("#loadData").load("404.html", function () {
           $(window).scrollTop(0);
