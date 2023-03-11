@@ -42,6 +42,13 @@ $(document).ready(function () {
           $("#biografia").addClass("active");
         });        
         break;
+      case "#/eventos":
+        $("#loadData").load("pages/eventos.html", function () {
+          $(window).scrollTop(0);
+          $(".nav-item").removeClass("active");
+          $("#gira").addClass("active");
+        });        
+        break;
       case "#/contacto":
         $("#loadData").load("pages/contacto.html", function () {
           $(window).scrollTop(0);

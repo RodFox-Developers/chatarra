@@ -172,6 +172,11 @@ nav .active .nav-link {
     opacity: 0.7;
 }
 
+/* EVENTOS */
+.logo-songkick {
+ max-width: 150px;
+}
+
 /* CONTACTO */
 
 .bg-paper01 {
